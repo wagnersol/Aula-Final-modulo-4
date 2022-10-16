@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de tecnologia</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div class="marca-agua">
+        <img src="img/LOGO - TECNOLOGIA 03.svg" >
+    </div>
+    <main >
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html"></a>
+                </li>
+
+            </ul>
+        </nav>
+        <header>
+            <div class="desativada">
+                <!--
+                        <img src="./img/LOGO - TECNOLOGIA 03.svg" class="logo"></img>
+                    -->
+            </div>
+            <h1 class="titulo"> Núcleo de Tecnologia</h1>
+        </header>
+        <main>
+            <section class="texto">
+                <h3>Sobre o Nucleo de Tecnologia</h3>
+                <p class="paragrafo">
+                    Somos um coletivo de militantes sociais que calharam
+                    de também trabalhar com tecnologia<br>
+                    Contribuímos com soluções que ajudem a impulsionar
+                    a luta cotidiana, fazê-la mais forte e o <br>futuro cada
+                    vez mais promissor de quem trabalha.
+                </p>
+            </section>
+            <section class="texto">
+                <h3>Projetos</h3>
+                <img src="./img/20221015_163205.jpg" class="imagens"></img>
+                <img src="./img/20221015_163156.jpg" class="imagens"></imgS>
+                <img src="./img/20221015_163145.jpg" class="imagens"></img>
+                <img src="./img/20221015_163024.jpg" class="imagens"></img>
+
+            </section>
+            <section class="texto">
+                <h3>Cursos</h3>
+                <p class="paragrafo">
+                    Participe do nosso próximo curso de tecnologia do MTST<br>
+                    e venha fazer parte deste mundo de oportunidades.<br>As inscrições estão abertas.
+                </p>
+
+            </section>
+            <section class="texto">
+                <h3>Inscreva-se</h3>
+
+                </h1>
+                <div class="form">
+                    <div class="form-group">
+                        <label for="Nome">Nome:</label>
+                        <input type="text" id="Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email:</label>
+                        <input type="text" id="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="Telefone">Telefone:</label>
+                        <input type="number" id="Telefone">
+                    </div>
+                    <div>
+                        <button type="button" onclick="cadastraInscritos()">Inscreva-se</button>
+                    </div>
+                </div>
+            </section>
+            <section class="texto">
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="cabecalho-tabela">Nome</td>
+                            <td class="cabecalho-tabela">Email</td>
+                            <td class="cabecalho-tabela">Telefone</td>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela-lista-inscritos">
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            
+                    <p>
+                        inscritos
+                    <span id ="numeros-inscritos"></span>
+                </p>
+        
+            </section>
+        </main>
+        <script src="./script.js"></script>
+
+    </div>
+</body>
+
+</html>

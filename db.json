@@ -1,0 +1,22 @@
+{
+  "inscritos": [
+    {
+      "Nome": "Gabriel",
+      "Telefone": "5511953405046",
+      "Email": "email@email.com",
+      "id": 1
+    },
+    {
+      "Nome": "solange",
+      "Email": "sollangelive71@gmail.com",
+      "Telefone": "976816203",
+      "id": 2
+    },
+    {
+      "Nome": "André",
+      "Email": "andre_utfpr@hotmail.com",
+      "Telefone": "11952411776",
+      "id": 3
+    }
+  ]
+}
